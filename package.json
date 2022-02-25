@@ -1,0 +1,20 @@
+{
+	"name": "angularjs-app",
+	"version": "1.0.0",
+	"description": "Angular.js app to use within a single-spa root-config",
+	"main": "index.js",
+	"scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.piworks.net/devops/microfrontend/single-spa/angularjs-app"
+	},
+	"keywords": [
+		"angularjs",
+		"single-spa",
+		"microfrontend"
+	],
+	"author": "ismailarilik",
+	"license": "ISC"
+}
