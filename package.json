@@ -4,7 +4,7 @@
 	"description": "Angular.js app to use within a single-spa root-config",
 	"main": "index.js",
 	"scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
@@ -16,5 +16,8 @@
 		"microfrontend"
 	],
 	"author": "ismailarilik",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"angular": "^1.8.2"
+	}
 }
