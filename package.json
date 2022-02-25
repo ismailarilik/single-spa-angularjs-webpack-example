@@ -2,8 +2,9 @@
 	"name": "angularjs-app",
 	"version": "1.0.0",
 	"description": "Angular.js app to use within a single-spa root-config",
-	"main": "index.js",
+	"main": "src/index.js",
 	"scripts": {
+		"build": "npx webpack",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -19,5 +20,10 @@
 	"license": "ISC",
 	"dependencies": {
 		"angular": "^1.8.2"
+	},
+	"devDependencies": {
+		"html-loader": "^3.1.0",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2"
 	}
 }

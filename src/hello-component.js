@@ -1,17 +1,9 @@
-const helloTemplate = `
-<div>
-	<label>Name:</label>
-	<input type="text" ng-model="$ctrl.yourName" placeholder="Enter a name here">
-	<hr>
-	<h1>Hello {{$ctrl.yourName}}!</h1>
-</div>
-`;
+import helloController from './hello-component-controller';
+import helloTemplate from './hello-component.html';
 
-angular.
-	module('hello', []).
-	component('hello', {
-	template: helloTemplate,
-	controller () {
-		this.yourName = 'world';
-	}
+const helloComponent = helloModule.component('hello', {
+	controller: helloController,
+	template: helloTemplate
 });
+
+export default helloComponent;
