@@ -1,4 +1,4 @@
-const helloController = () => {
+const helloController = function () {
 	this.yourName = 'world';
 };
 
