@@ -16,6 +16,9 @@ module.exports = {
 		static: './dist'
 	},
 	entry: './src/index.js',
+	externals: {
+		getAngularjsVersion: 'getAngularjsVersion'
+	},
 	mode: areWeInDevEnvironment ? 'development' : 'production',
 	module: {
 		rules: [

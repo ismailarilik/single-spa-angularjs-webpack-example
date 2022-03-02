@@ -10,6 +10,11 @@ const ngLifecycles = singleSpaAngularJS({
   template: '<hello />',
 });
 
+const getAngularjsVersion = () => {
+  return angular.version.full;
+};
+
 export const bootstrap = ngLifecycles.bootstrap;
 export const mount = ngLifecycles.mount;
 export const unmount = ngLifecycles.unmount;
+export { getAngularjsVersion };
