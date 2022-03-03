@@ -1,5 +1,6 @@
 import angular from 'angular';
 import singleSpaAngularJS from 'single-spa-angularjs';
+import _ from 'lodash';
 import './hello-module';
 
 const ngLifecycles = singleSpaAngularJS({
