@@ -4,7 +4,7 @@ Angular.js app to use within a single-spa root-config
 
 ## Requirements
 
-- Node.js v14
+- Node.js v16
 
 ## Usage
 
